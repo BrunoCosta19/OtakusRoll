@@ -1,0 +1,16 @@
+.navbar-brand {
+    color: #f16f17;
+}
+
+.navbar-nav, .dropdown-menu {
+    text-align: center;
+}
+
+.carousel-inner {
+    margin: 0 auto;
+}
+
+#cards-recomendacoes {
+    width: 100%;
+    margin: 0 auto;
+}

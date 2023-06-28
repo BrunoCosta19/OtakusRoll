@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark" lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> OtakusRoll</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div class="container mb-3">
+            <div class="navbar navbar-expand-lg">
+                <div class="d-flex p-3 align-items-center gap-4">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"> <span
+                            class="navbar-toggler-icon"></span>
+                    </button>
+                    <a href="./index.html" class="navbar-brand">
+                        <h1>OtakusRoll</h1>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown">Navegar</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Populares</a></li>
+                                <li><a href="#" class="dropdown-item">Novidades</a></li>
+                                <li><a href="#" class="dropdown-item">A-Z</a></li>
+                                <li><a href="#" class="dropdown-item">Calendário de Lançamentos</a></li>
+                            </ul>
+                        <li class="main-nav">
+                            <a href="https://mangaschan.com/" class="button-container">
+                                <h2>Mangá</h2>
+                            </a>
+                        </liv>
+                        <li class="main-nav">
+                            <a href="https://steamverdegames.blogspot.com/" class="button-container">
+                                <h2>Jogos</h2>
+                        </li>
+                    </ul>
+                    <form class="d-flex w-xlg-25" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-warning" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="carousel-lancamentos" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-lancamentos" data-bs-slide-to="0"
+                    class="active"></button>
+                <button type="button" data-bs-target="#carousel-lancamentos" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-lancamentos" data-bs-slide-to="2"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="container">
+
+                    <div class="carousel-item active">
+                        <img src="https://th.bing.com/th/id/R.a4145747b7240f89f93a43505804b510?rik=Isyv7a5BIiWgNQ&riu=http%3a%2f%2fcentralhqs.com%2fwp-content%2fuploads%2f2016%2f12%2fboku-no-hero-capa.jpg&ehk=KZ2EU%2b5CGcKwbUr%2b9qf8%2f1u14psvOY2DdFX%2ftKVtXuU%3d&risl=&pid=ImgRaw&r=0"
+                            class="d-block img-fluid w-100" alt="Boku no Hero Poster">
+                    </div>
+                    <div class="carousel-item"><img
+                            src="https://i0.wp.com/katoon.com.br/wp-content/uploads/2019/08/Capa-cast-20.png?resize=1140%2C641&ssl=1"
+                            class="d-block img-fluid w-100" alt="Haikyu Poster">
+                    </div>
+                    <div class="carousel-item"><img
+                            src="https://projectn.com.br/wp-content/uploads/2022/02/kimetsu-no-yaiba-hinokami-chronicles.jpeg"
+                            class="d-block img-fluid w-100" alt="Demon slayer">
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-lancamentos"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-lancamentos"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </section>
+
+        <section class="container mt-5">
+            <h3 class="my-3 pb-3 border-3 border-bottom  border-primary">Recomendações para você</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col col-lg-4 col-md-6 col-sm-12 col-xs-12 my-sm-4 text-sm-center text-lg-start">
+                        <img class="card img-fluid w-100 w-100"
+                            src="https://figurasanime.com/wp-content/uploads/2018/12/posters-anime-para-imprimir.jpg" alt="Attack on titan poster">
+                        <div class="card-body my-3">
+                            <h6>Attack on Titan</h6>
+                        </div>
+                        <button type="button" class="btn btn-warning mb-3">Assista agora</button>
+                    </div>
+                    <div class="col col-lg-4 col-md-6 col-sm-12 col-xs-12 my-sm-4 text-sm-center text-lg-start">
+                        <img class="card img-fluid w-100"
+                            src="https://figurasanime.com/wp-content/uploads/2018/12/poster-anime-barato.jpeg" alt="One Punch Man Poster">
+                        <div class="card-body my-3">
+                            <h6>One Punch Man</h6>
+                        </div>
+                        <button type="button" class="btn btn-warning mb-3">Assista agora</button>
+                    </div>
+                    <div class="col col-lg-4 col-md-6 col-sm-12 col-xs-12 my-sm-4 text-sm-center text-lg-start">
+                        <img class="card img-fluid w-100"
+                            src="https://figurasanime.com/wp-content/uploads/2018/12/posters-anime-gratis.jpg" alt="Death Note Poster">
+                        <div class="card-body my-3">
+                            <h6>Death Note</h6>
+                        </div>
+                        <button type="button" class="btn btn-warning mb-3">Assista agora</button>
+                    </div>
+                </div>
+            </div>    
+            
+            </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
